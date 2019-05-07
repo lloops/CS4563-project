@@ -1,0 +1,114 @@
+1. Logistic Regression with Lasso(L1) Regularization, Feature NOT Transformed, C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Accuracy on training data = 0.531532
+Accuracy on test data = 0.560000
+Accuracy on training data = 0.468468
+Accuracy on test data = 0.440000
+Accuracy on training data = 0.531532
+Accuracy on test data = 0.560000
+Accuracy on training data = 0.833333
+Accuracy on test data = 0.893333
+Accuracy on training data = 0.828829
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.828829
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.833333
+Accuracy on test data = 0.880000
+
+2. Logistic Regression with Ridge(L2) Regularization, Feature NOT Transformed, C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Accuracy on training data = 0.554054
+Accuracy on test data = 0.493333
+Accuracy on training data = 0.725225
+Accuracy on test data = 0.680000
+Accuracy on training data = 0.855856
+Accuracy on test data = 0.866667
+Accuracy on training data = 0.851351
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.851351
+Accuracy on test data = 0.813333
+Accuracy on training data = 0.851351
+Accuracy on test data = 0.813333
+Accuracy on training data = 0.851351
+Accuracy on test data = 0.813333
+
+3. Logistic Regression with Lasso(L1) Regularization, Feature Transformed(Polynomial, degree=2), C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Accuracy on training data = 0.545045
+Accuracy on test data = 0.520000
+Accuracy on training data = 0.545045
+Accuracy on test data = 0.520000
+Accuracy on training data = 0.545045
+Accuracy on test data = 0.520000
+Accuracy on training data = 0.846847
+Accuracy on test data = 0.893333
+Accuracy on training data = 0.842342
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.842342
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.842342
+Accuracy on test data = 0.880000
+
+4. Logistic Regression with Ridge(L2) Regularization, Feature Transformed(Polynomial, degree=2), C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Accuracy on training data = 0.554054
+Accuracy on test data = 0.493333
+Accuracy on training data = 0.684685
+Accuracy on test data = 0.773333
+Accuracy on training data = 0.833333
+Accuracy on test data = 0.880000
+Accuracy on training data = 0.846847
+Accuracy on test data = 0.866667
+Accuracy on training data = 0.855856
+Accuracy on test data = 0.853333
+Accuracy on training data = 0.851351
+Accuracy on test data = 0.853333
+Accuracy on training data = 0.855856
+Accuracy on test data = 0.853333
+
+5. Support Vector Machines with Linear Kernel, C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Train Accuracy = 0.536036
+Test Accuracy = 0.546667
+Train Accuracy = 0.680180
+Test Accuracy = 0.680000
+Train Accuracy = 0.855856
+Test Accuracy = 0.853333
+Train Accuracy = 0.842342
+Test Accuracy = 0.840000
+Train Accuracy = 0.855856
+Test Accuracy = 0.826667
+Train Accuracy = 0.855856
+Test Accuracy = 0.826667
+Train Accuracy = 0.855856
+Test Accuracy = 0.826667
+
+5. Support Vector Machines with RBF kernel, C = [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]
+Train Accuracy = 0.581081
+Test Accuracy = 0.413333
+Train Accuracy = 0.581081
+Test Accuracy = 0.413333
+Train Accuracy = 0.581081
+Test Accuracy = 0.413333
+Train Accuracy = 0.887387
+Test Accuracy = 0.733333
+Train Accuracy = 0.927928
+Test Accuracy = 0.720000
+Train Accuracy = 0.986486
+Test Accuracy = 0.746667
+Train Accuracy = 1.000000
+Test Accuracy = 0.746667
+
+6. Support Vector Machines with Polynomial kernel, C = np.geomspace(0.000001, 0.001, 5)
+Train Accuracy = 0.554054
+Test Accuracy = 0.493333
+Train Accuracy = 0.554054
+Test Accuracy = 0.493333
+Train Accuracy = 0.554054
+Test Accuracy = 0.493333
+Train Accuracy = 0.554054
+Test Accuracy = 0.493333
+Train Accuracy = 0.554054
+Test Accuracy = 0.493333
+
+
+
+
+
+
+
